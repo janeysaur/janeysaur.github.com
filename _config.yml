@@ -1,0 +1,22 @@
+# MUST EDIT BELOW
+sitename: Jane Sivieng       #Your site title
+tagline: Coder | Crafter | Puzzler  #You should always have a tagline
+url: http://janeysaur.com   #URL Please
+ga: UA-23651010-1           #Google Analytics ID
+sitemap: GOOGLEWEBMASTER    #Google webmaster verification code
+# END
+# CHOOSE YOUR PREFERENCE
+pygments:    true
+markdown:    maruku
+permalink:   pretty
+# END
+exclude: LICENSE, README.markdown, Rakefile
+
+flickr: 
+  enabled: yes
+  cache_dir: ./_cache/flickr
+  api_key: 531fea153764e6e089ad41e2e8945604 
+  shared_secret: d640cd5c099cfca3
+  auth_token: 72157626705973015-0fb1e4cbb7200eab
+
+
