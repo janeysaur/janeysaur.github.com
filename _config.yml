@@ -1,4 +1,5 @@
 # MUST EDIT BELOW
+<<<<<<< HEAD
 sitename: janeysaur  
 tagline: Coder | Crafter | Puzzler  
 url: http://janeysaur.com   
@@ -10,6 +11,7 @@ permalink:   pretty
 # END
 exclude: LICENSE, README.markdown, Rakefile
 safe: false
+
 flickr: 
   enabled: yes
   cache_dir: ./_cache/flickr

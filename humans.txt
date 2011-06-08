@@ -3,13 +3,14 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  Creator: Jane Sivieng
+  Site: http://janeysaur.com
+  Twitter: janeysaur
+  Location: Sydney, Australia
 
 /* THANKS */
-  Names (& URL): 
+  Eli Burford (http://eliburford.com/) for the Social Media Iconset
+  Yuya Saito (http://www.layouts-the.me/) for the_minimum Jekyll theme
 
 /* SITE */
   Standards: HTML5, CSS3
