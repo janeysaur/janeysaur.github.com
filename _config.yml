@@ -1,10 +1,8 @@
 # MUST EDIT BELOW
-<<<<<<< HEAD
 sitename: janeysaur  
 tagline: Coder | Crafter | Puzzler  
 url: http://janeysaur.com   
 ga: UA-23651010-1           
-# END
 # CHOOSE YOUR PREFERENCE
 pygments:    true
 permalink:   pretty
