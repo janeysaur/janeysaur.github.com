@@ -1,0 +1,78 @@
+---
+---
+/**
+ * Primary styles
+ *
+ * Author: Jane Sivieng
+ */
+
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+html {
+  background-image: url(/img/29-jane.png), url(/img/37-jane.png), url(/img/53-jane.png); 
+  padding: 24px 0px;
+} 
+
+body {
+  background-color: white;
+  border: 3px solid #607890;
+  font-size: 100%;
+  line-height: 1.5; 
+	margin: 0 auto;
+	padding: 24px;
+	.rounded-corners();
+}
+
+#head {
+  margin-bottom: 24px;
+  .logo {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .tagline {
+    display: inline-block;
+    margin-left: 5px;
+  }
+}
+
+#sidebar {
+  ul {
+    margin-left: 0px;
+  }
+}
+
+#social-media {
+  float: right;
+  li {
+    float: left;
+    margin-left: 5px;
+  }
+}
+
+.slideshow {
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.photo-thumbs {
+  margin: 10px 0px;
+  a {
+    margin-right: 10px;
+    text-decoration: none;    
+  }
+  img {
+    border: 3px solid #607890;
+    .rounded-corners();
+  }
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}

@@ -1,0 +1,18 @@
+# MUST EDIT BELOW
+sitename: janeysaur  
+tagline: Coder | Crafter | Puzzler  
+url: http://janeysaur.com   
+ga: UA-23651010-1           
+# END
+# CHOOSE YOUR PREFERENCE
+pygments:    true
+permalink:   pretty
+# END
+exclude: LICENSE, README.markdown, Rakefile
+safe: false
+flickr: 
+  enabled: yes
+  cache_dir: ./_cache/flickr
+  api_key: 531fea153764e6e089ad41e2e8945604 
+  shared_secret: d640cd5c099cfca3
+  auth_token: 72157626705973015-0fb1e4cbb7200eab

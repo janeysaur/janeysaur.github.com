@@ -1,0 +1,46 @@
+html {
+  background-image: url(/img/29-jane.png), url(/img/37-jane.png), url(/img/53-jane.png);
+  padding: 24px 0px;
+}
+body {
+  background-color: white;
+  border: 3px solid #607890;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+#head { margin-bottom: 24px; }
+#head .logo {
+  font-weight: bold;
+  text-decoration: none;
+}
+#head .tagline {
+  display: inline-block;
+  margin-left: 5px;
+}
+#sidebar ul { margin-left: 0px; }
+#social-media { float: right; }
+#social-media li {
+  float: left;
+  margin-left: 5px;
+}
+.slideshow {
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+.photo-thumbs { margin: 10px 0px; }
+.photo-thumbs a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.photo-thumbs img {
+  border: 3px solid #607890;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+img, embed, object, video { max-width: 100%; }
