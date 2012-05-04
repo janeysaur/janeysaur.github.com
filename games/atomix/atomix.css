@@ -1,0 +1,216 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'VT323', cursive;
+}
+
+.atom, .bond, .arrow, .wall, .box {
+
+  position: absolute;
+
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+
+}
+
+.center {text-align: center;}
+
+
+#loading {
+  font-size: xx-large;
+  color: red;
+  overflow: hidden;
+}
+
+
+table.arena-wrapper {
+   margin: 0px auto;
+}
+
+td {
+  vertical-align: top;
+}
+
+#arena-container {
+  padding: 20px;
+}
+#arena {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+.arena-border {
+  border: thick ridge grey;
+}
+
+#molecule-container {
+  padding: 15px;
+  margin: 15px;
+  border: thick ridge grey;
+}
+
+#molecule {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  cursor: move;
+
+}
+
+
+#headbar {
+  background-color: black;
+  color: white;
+  font-size: smaller;
+  font-weight: bold;
+  padding: 0.25em;
+
+}
+
+#headbar a {
+    color: white;
+}
+
+#controls {
+  padding: 10px;
+  padding-top: 5px;
+  text-align: center;
+
+}
+
+#controls p {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+#selectors {
+
+}
+
+#move-controls {
+ padding-top: 20px;
+ text-align: center;
+}
+
+#blurb {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#after-main {
+  position: relative;
+}
+
+#footer {
+  font-size: smaller;
+  width: 99%;
+  padding-bottom: 1em;
+}
+
+.hide-selector {
+  display: none;
+}
+#levelset-credits {
+  text-align: center;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+/*  Modal Dialogs */
+
+/*
+  This element is dynamically created. There is only one per page.
+  xModalDialog assumes this class name. It is used to grey out
+  the page when modal dialogs are displayed.
+*/
+.xModalDialogGreyElement, .xShieldElement{
+  position: absolute;
+  overflow: hidden;
+  width: 10px; height: 10px;
+  left: -10px; top: -10px;
+  z-index: 100;
+  opacity: .3; /* CSS3 */
+  background-color: #000;
+  filter: alpha(opacity=30);
+}
+
+.xxModalDialog {
+  position: absolute;
+
+  overflow: auto;
+  left: -50000px;
+  top: 0px;
+
+  width: 400px;
+  padding: 1em;
+  color: #BF8660;
+  background-color: #FFF;
+  border: 2px solid #BF8660;
+  z-index: 99;
+  text-align: center;
+}
+
+#success-dialog {
+  position: absolute;
+  left: -50000px;
+}
+
+
+#ajax-dialog {
+  position: absolute;
+  left: -50000px;
+}
+
+#bookmark-dialog {
+  position: absolute;
+  left: -50000px;
+}
+
+.solutions-table {
+  margin: auto;
+}
+
+.solutions-table td, .solutions-table th {
+  border: 1px #ccc solid;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  vertical-align: middle;
+}
+
+.solutions-table tr {
+	border: hidden;
+}
+
+tr.no-border, tr.no-border td {
+  border: hidden;
+}
+
+#lastupdated {
+  font-size: smaller;
+  text-align: center;
+  font-style: italic;
+}
+
+#sdf-promotion {
+  font-size: large;
+  font-weight: bold;
+}
+
+.recent-status-img {
+  margin: 0px;
+  padding: 0px;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+
+.emblem {
+	height: 22px;
+	width: 22px;
+}
