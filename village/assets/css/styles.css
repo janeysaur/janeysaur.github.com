@@ -378,7 +378,7 @@ div.filter {
   position: absolute;
   top: 160px;
   left: 55px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 104, 55, 0.25)), color-stop(0.5, rgba(255, 255, 255, 0.25)), to(rgba(0, 104, 55, 0.25)));
+  background: -webkit-gradient(linear, left top, right top, from(#006837), color-stop(0.5, #ffffff), to(#006837));
   opacity: 0.25;
   background: -moz-linear-gradient(left, #006837 0%, #ffffff 50%, #008000 100%);
 }
