@@ -354,6 +354,7 @@ body {
   width: 1024px;
   height: 800px;
   margin: 0 auto;
+  position: relative;
   /*background: url("../images/screenshot.png");*/
 
 }
@@ -366,27 +367,26 @@ div.satellite {
   height: 400px;
   position: absolute;
   top: 160px;
-  left: 220px;
+  left: 55px;
   background-image: url("../images/Satellite_image_of_Nepal_in_October_2002.jpg");
-  background-position-x: -665px;
-  background-position-y: -840px;
-  transition: 1000ms background-position;
+  background-position: -665px -840px;
+  transition: background-position 1000ms ease;
 }
 div.filter {
   width: 920px;
   height: 400px;
   position: absolute;
   top: 160px;
-  left: 220px;
+  left: 55px;
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 104, 55, 0.25)), color-stop(0.5, rgba(255, 255, 255, 0.25)), to(rgba(0, 104, 55, 0.25)));
+  opacity: 0.25;
+  background: -moz-linear-gradient(left, #006837 0%, #ffffff 50%, #008000 100%);
 }
 div.satellite.pos2 {
-  background-position-x: -553px;
-  background-position-y: -952px;
+  background-position: -553px -952px;
 }
 div.satellite.pos3 {
-  background-position-x: -553px;
-  background-position-y: -840px;
+  background-position: -553px -840px;
 }
 div.grid .row {
   height: 110px;
@@ -425,7 +425,7 @@ div.overlay {
   height: 224px;
   position: absolute;
   top: 251px;
-  left: 403px;
+  left: 238px;
   background: url("../images/house overlay.png");
   background-size: cover;
   opacity: 0;
@@ -433,15 +433,14 @@ div.overlay {
 }
 div.tagline {
   height: 45px;
-  width: 920px;
+  width: 900px;
   background: #3e533b;
   position: absolute;
   top: 560px;
-  left: 220px;
+  left: 55px;
   color: white;
   line-height: 45px;
   padding-left: 20px;
-  box-sizing: border-box;
   font-size: 24px;
 }
 #start {
